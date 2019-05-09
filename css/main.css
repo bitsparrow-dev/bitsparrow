@@ -112,8 +112,8 @@ header .learn-more:hover {
 #work > div {
 	max-width: 1400px;
 	margin: 0 auto;
-	padding: 115px 0;
- 	width: 85%;
+	padding: 175px 0 150px;
+ 	width: 80%;
 }
 
 #work .areas {
@@ -125,7 +125,7 @@ header .learn-more:hover {
 }
 
 #work .areas li {
-	width: 30%;
+	width: 27%;
 	text-align: center;
 }
 
@@ -150,13 +150,14 @@ header .learn-more:hover {
 #portfolio {
 	margin: 0;
 	background-color: #1a1a1a;
+	background-image: url('../img/background-contact.jpg');
 }
 
 #portfolio > div {
 	max-width: 1400px;
 	margin: 0 auto;
 	width: 85%;
-	padding: 100px 0;
+	padding: 150px 0;
 }
 
 #portfolio h2{
@@ -200,7 +201,7 @@ header .learn-more:hover {
 	display: none;
 	justify-content: center;
 	align-items: center;
-	background-color: rgba(0,0,0,0.75);
+	background-color: rgba(0,0,0,0.70);
 }
 
 #portfolio .sites li a:hover .overlay {
@@ -208,7 +209,7 @@ header .learn-more:hover {
 }
 
 #portfolio .sites li a .overlay h3 {
-	font-size: 25px;
+	font-size: 21px;
 	color: #ffffff;
 }
 
