@@ -147,34 +147,69 @@ header .learn-more:hover {
 	color: #333333;
 }
 
+#portfolio {
+	margin: 0;
+	background-color: #1a1a1a;
+}
+
+#portfolio > div {
+	max-width: 1400px;
+	margin: 0 auto;
+	width: 85%;
+	padding: 100px 0;
+}
+
+#portfolio h2{
+	margin: 0 0 30px;
+	font-size: 65px;
+	color: #ffffff;
+	line-height: 1em;
+}
+
 #portfolio .sites {
-	margin-top: 70px;
-	padding: 0;
-	text-align: center;
-	list-style: none;
-}
-
-#portfolio .sites h2{
-	padding: 0 45px;
-	font-size: 22px;
-	color: #4d4d4d;
-	line-height: 50px;
-	border-right: 3px solid #4d4d4d;
-}
-
-#portfolio .sites li {
-	display: inline-block;
-	margin-left: 40px;
-}
-
-#portfolio .sites li:first-child {
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 0 20px;
 	margin: 0;
 }
 
-#portfolio .sites li a{
-	font-size: 21px;
-	font-weight: 700;
-	color: #4d4d4d;
+#portfolio .sites li {
+	width: 30%;
+	list-style: none;
+}
+
+#portfolio .sites li a {
+	display: block;
+	position: relative;
+}
+
+#portfolio .sites li a img {
+	width: 100%;
+	height: auto;
+	position: relative;
+	z-index: 0;
+}
+
+#portfolio .sites li a .overlay {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0,0,0,0.75);
+}
+
+#portfolio .sites li a:hover .overlay {
+	display: flex;
+}
+
+#portfolio .sites li a .overlay h3 {
+	font-size: 25px;
+	color: #ffffff;
 }
 
 /*** About Section ***/
